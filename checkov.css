@@ -1,0 +1,64 @@
+.speech{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+.direction{
+    color: black;
+    background-color: beige;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+.direction:hover{
+    background-color: cyan;
+    color: black;
+}
+.TUZENBACH{
+    color: blue;
+}
+.IRINA{
+    color: aqua;
+}
+.KULIGIN{
+    color: darkgreen;
+}
+.FEDOTIK{
+    color: blueviolet;
+}
+.RODE{
+    color: chocolate;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: magenta;
+}
+th{text-align: center;
+    padding: 5px;
+}
+td{text-align: left;
+padding: 4px;}
+tr:nth-child(odd) {
+    background-color: #3d41434b;
+}
+.RODE:hover{
+    text-shadow: 1px 1px 8px red;
+}
+ul.nav{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul.nav li{
+    float: left;
+    display: inline;
+    background-color: red;
+}
+ul.nav a{
+    display: block;
+    
+}
+ul.nav a:hover{
+    background-color:rgb(115, 0, 255);
+    color: blueviolet;
+}
